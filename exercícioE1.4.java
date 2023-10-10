@@ -1,22 +1,22 @@
-public class Animal {
+class Animal {
     public String som() {
         return "Voz produzida pelo animal.";
     }
 }
 
-public class Sapo extends Animal {
+class Sapo extends Animal {
     public String som() {
         return "coaxar";
     }
 }
 
-public class Cachorro extends Animal {
+class Cachorro extends Animal {
     public String som() {
         return "latir";
     }
 }
 
-public class Boi extends Animal {
+class Boi extends Animal {
     public String som() {
             return "mugir";
     }
